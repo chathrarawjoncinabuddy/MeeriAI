@@ -1,6 +1,6 @@
-#MeeriAI: Biometric Identity Verification with AI
+# MeeriAI: Biometric Identity Verification with AI
 
--Empowered by NVIDIA DeepStream SDK:MeeriAI is a state-of-the-art biometric identity verification system leveraging AI and NVIDIA DeepStream SDK for iris scanning. This solution ensures secure, efficient, and reliable user authentication through advanced AI capabilities.
+- Empowered by NVIDIA DeepStream SDK:MeeriAI is a state-of-the-art biometric identity verification system leveraging AI and NVIDIA DeepStream SDK for iris scanning. This solution ensures secure, efficient, and reliable user authentication through advanced AI capabilities.
 
 Table of Contents
 Introduction
