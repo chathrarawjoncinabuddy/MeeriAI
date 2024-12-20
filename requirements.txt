@@ -1,0 +1,29 @@
+# Core dependencies
+Flask==2.2.5             # For the backend server
+Flask-Cors==3.0.10       # To handle Cross-Origin Resource Sharing
+
+# NVIDIA DeepStream and GStreamer Integration
+pygst==0.10.22           # GStreamer Python bindings (verify the compatibility)
+PyCUDA==2022.2.2         # CUDA Python bindings for GPU computations
+tensorrt==8.5.3.1        # NVIDIA TensorRT (ensure correct version based on CUDA)
+
+# AI and Deep Learning
+numpy==1.23.5            # Numerical computations
+opencv-python==4.8.1.78  # For image processing
+tensorflow==2.10.1       # For additional AI model inference
+torch==2.0.1             # PyTorch for deep learning (optional)
+onnxruntime==1.15.1      # For running ONNX models
+
+# Metadata and Data Handling
+protobuf==4.24.3         # Required for model serialization/deserialization
+pandas==2.1.1            # For structured data management
+jsonschema==4.19.0       # For schema validation of inputs/outputs
+
+# Development and Debugging Tools
+gunicorn==21.2.0         # For production-ready deployment
+pytest==7.3.1            # For running backend tests
+black==23.9.1            # For code formatting
+
+# Miscellaneous
+requests==2.31.0         # For API requests
+python-dotenv==1.0.0     # For managing environment variables
