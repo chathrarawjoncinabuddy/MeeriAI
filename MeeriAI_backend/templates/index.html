@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometric Identity Verification</title>
+    <script src="static/js/camera.js"></script>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <h1>Biometric Identity Verification</h1>
+    <video id="camera-feed" autoplay></video>
+    <button id="start-scan">Start Iris Scan</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('start-scan').addEventListener('click', () => {
+            fetch('/start_scan', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById('result').innerText = data.data.iris_data;
+                    } else {
+                        document.getElementById('result').innerText = `Error: ${data.error}`;
+                    }
+                });
+        });
+    </script>
+</body>
+</html>
