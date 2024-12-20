@@ -30,7 +30,7 @@
 
 #### Step 1: Clone the Repository
 
-`git clone https://github.com/YourRepo/MeeriAI.git`   
+`git clone https://github.com/MeeriAI/MeeriAI.git`   
 `cd MeeriAI `
  
 #### Step 2: Install Dependencies
